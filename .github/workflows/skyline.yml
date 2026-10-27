@@ -1,0 +1,32 @@
+name: 3d-contrib
+
+on:
+  schedule:
+    - cron: "23 3 * * *"
+  workflow_dispatch:
+  push:
+    branches: [master]
+    paths: [.github/workflows/skyline.yml]
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: yoshi389111/github-profile-3d-contrib@v0.9.3
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          USERNAME: ${{ github.repository_owner }}
+
+      - name: Commit images
+        run: |
+          git config user.name "Alexander Ivanenko"
+          git config user.email "sentimental1243@gmail.com"
+          git add -A profile-3d-contrib
+          git diff --cached --quiet || git commit -m "Update 3D contribution graph"
+          git push
