@@ -1,16 +1,25 @@
-## Hi there 👋
+### Turn hours of manual work into systems that run on their own.
 
-<!--
-**Sentimenta1ist/Sentimenta1ist** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Software engineer at IBM, working on AI agent orchestration. Backend by trade: Java, Spring, Kafka, and lately LLM agents, RAG and tracing. On the side I automate my own life and build small tools, and now bring the same automation to people and businesses.
 
-Here are some ideas to get you started:
+**Selected work**
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+| | |
+|---|---|
+| [**crumbclear**](https://github.com/Sentimenta1ist/crumbclear) | Chrome extension that deletes a site's cookies when you close its tab. Tested, Manifest V3. |
+| [**vocab**](https://github.com/Sentimenta1ist/vocab) | English vocabulary trainer: Gemini writes the cards, SM-2 decides when you see them again. |
+| [**transcribator**](https://github.com/Sentimenta1ist/transcribator) | YouTube link in, transcript and a ready LLM prompt out. Decide in 30 seconds if a video is worth an hour. |
+| [**memoir**](https://github.com/Sentimenta1ist/memoir) | Evening journal as a PWA: three short blocks a day, photos, FastAPI + React. |
+| [**x-viral-radar**](https://github.com/Sentimenta1ist/x-viral-radar) | Scores posts in your X feed by how likely they are to take off, while you scroll. |
+| [**diet-dash**](https://github.com/Sentimenta1ist/diet-dash) | Web app for nutritionists from my closed startup: profiles, meal plans, 9.9k products, export. |
+
+Older code, written before AI coding assistants, is kept as-is under the [`pre-ai`](https://github.com/Sentimenta1ist?tab=repositories&q=topic%3Apre-ai) topic: an x86 assembler, a SIGNAL compiler, OS simulations in Java, Lisp, numerical methods.
+
+**Stack:** Java · Spring Boot · Kafka · Python · FastAPI · TypeScript · React · PostgreSQL · Docker · LLM agents · RAG · OpenTelemetry
+
+**Elsewhere:** [X @sentimentGod](https://x.com/sentimentGod)
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Sentimenta1ist/Sentimenta1ist/output/snake-dark.svg" />
+  <img alt="contribution snake" src="https://raw.githubusercontent.com/Sentimenta1ist/Sentimenta1ist/output/snake.svg" />
+</picture>
