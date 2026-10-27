@@ -25,6 +25,6 @@ Older code, written before AI coding assistants, is kept as-is under the [`pre-a
 **Elsewhere:** [LinkedIn](https://www.linkedin.com/in/alexander-ivanenko) · [X @sentimentGod](https://x.com/sentimentGod)
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="profile-3d-contrib/profile-night-view.svg" />
-  <img alt="3D contribution graph" src="profile-3d-contrib/profile-gitblock.svg" />
+  <source media="(prefers-color-scheme: dark)" srcset="assets/dots-dark.svg" />
+  <img alt="Contributions over the last 12 months" src="assets/dots-light.svg" width="100%" />
 </picture>
