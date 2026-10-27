@@ -20,7 +20,7 @@ jobs:
 
       - name: Render
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.PROFILE_TOKEN || secrets.GITHUB_TOKEN }}
           GH_USER: ${{ github.repository_owner }}
         run: python3 scripts/dots.py assets
 
