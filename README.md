@@ -15,6 +15,11 @@ Software engineer at IBM, working on AI agent orchestration. Backend by trade: J
 
 Older code, written before AI coding assistants, is kept as-is under the [`pre-ai`](https://github.com/Sentimenta1ist?tab=repositories&q=topic%3Apre-ai) topic: an x86 assembler, a SIGNAL compiler, OS simulations in Java, Lisp, numerical methods.
 
+<!--brain-stats:start-->
+**Last 7 days in my second brain:** 66 commits · 6 active days · 95 notes updated · 90 logged events · 21 posts published
+<sub>Counted daily by a GitHub Action from a private repo. Numbers only. Updated 2026-10-27.</sub>
+<!--brain-stats:end-->
+
 **Stack:** Java · Spring Boot · Kafka · Python · FastAPI · TypeScript · React · PostgreSQL · Docker · LLM agents · RAG · OpenTelemetry
 
 **Elsewhere:** [LinkedIn](https://www.linkedin.com/in/alexander-ivanenko) · [X @sentimentGod](https://x.com/sentimentGod)
