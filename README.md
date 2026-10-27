@@ -13,7 +13,7 @@ Software engineer at IBM, working on AI agent orchestration. Backend by trade: J
 - [**x-viral-radar**](https://github.com/Sentimenta1ist/x-viral-radar) — Scores posts in your X feed by how likely they are to take off, while you scroll.
 - [**diet-dash**](https://github.com/Sentimenta1ist/diet-dash) — Web app for nutritionists from my closed startup: profiles, meal plans, 9.9k products, export.
 
-Older code, written before AI coding assistants, is kept as-is under the [`pre-ai`](https://github.com/Sentimenta1ist?tab=repositories&q=topic%3Apre-ai) topic: an x86 assembler, a SIGNAL compiler, OS simulations in Java, Lisp, numerical methods.
+Older code topic: an x86 assembler, a SIGNAL compiler, OS simulations in Java, Lisp, numerical methods.
 
 <!--brain-stats:start-->
 **Last 7 days in my second brain:** 98 commits · 7 active days · 49 notes updated · 91 logged events · 21 posts published
