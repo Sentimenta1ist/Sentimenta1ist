@@ -30,8 +30,9 @@ def banner():
          f'<circle cx="930" cy="{y}" r="260" fill="url(#glow)"/>',
          f'<rect x="0.5" y="0.5" width="{W-1}" height="{H-1}" rx="16" fill="none" stroke="{LINE}"/>',
          f'<text x="64" y="128" font-family="{MONO}" font-size="14" letter-spacing="3" fill="{CYAN}">SOFTWARE ENGINEER · IBM · DUBLIN</text>',
-         f'<text x="62" y="186" font-family="{SANS}" font-size="44" font-weight="700" letter-spacing="-1"><tspan fill="{TEXT}">Alexander </tspan><tspan fill="url(#ac)">Ivanenko</tspan></text>',
-         f'<text x="64" y="224" font-family="{SANS}" font-size="18" fill="{MUTED}">Hours of manual work in, systems that run on their own out.</text>']
+         f'<text x="62" y="184" font-family="{SANS}" font-size="42" font-weight="700" letter-spacing="-1" fill="{TEXT}">Hours of manual work</text>',
+         f'<text x="62" y="234" font-family="{SANS}" font-size="42" font-weight="700" letter-spacing="-1" fill="url(#ac)">become a system.</text>',
+         f'<text x="64" y="278" font-family="{SANS}" font-size="17" fill="{MUTED}">AI agents, backend and small tools that save hours.</text>']
     # pipeline
     xs = [n[1] for n in nodes]
     o.append(f'<line x1="{xs[0]}" y1="{y}" x2="{xs[-1]}" y2="{y}" stroke="{LINE}" stroke-width="2"/>')
