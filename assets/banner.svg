@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="340" viewBox="0 0 1200 340">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0e1a35"/><stop offset="1" stop-color="#080d1a"/></linearGradient>
+<linearGradient id="ac" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#5b8cff"/><stop offset="1" stop-color="#38bdf8"/></linearGradient>
+<radialGradient id="glow" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#5b8cff" stop-opacity="0.35"/><stop offset="1" stop-color="#5b8cff" stop-opacity="0"/></radialGradient>
+</defs>
+<rect width="1200" height="340" rx="16" fill="url(#bg)"/>
+<pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse"><path d="M30 0H0V30" fill="none" stroke="#1f2f55" stroke-width="0.6" opacity="0.45"/></pattern>
+<rect width="1200" height="340" rx="16" fill="url(#grid)"/>
+<circle cx="930" cy="170" r="260" fill="url(#glow)"/>
+<rect x="0.5" y="0.5" width="1199" height="339" rx="16" fill="none" stroke="#1f2f55"/>
+<text x="64" y="104" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="14" letter-spacing="3" fill="#38bdf8">SOFTWARE ENGINEER · IBM · DUBLIN</text>
+<text x="62" y="176" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="62" font-weight="700" fill="#e8eefb" letter-spacing="-1.5">Alexander</text>
+<text x="62" y="244" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="62" font-weight="700" fill="url(#ac)" letter-spacing="-1.5">Ivanenko</text>
+<text x="64" y="288" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="19" fill="#8fa1c4">Hours of manual work in, systems that run on their own out.</text>
+<line x1="640" y1="170" x2="1110" y2="170" stroke="#1f2f55" stroke-width="2"/>
+<line x1="640" y1="170" x2="1110" y2="170" stroke="url(#ac)" stroke-width="2" stroke-dasharray="6 10"><animate attributeName="stroke-dashoffset" from="32" to="0" dur="1.6s" repeatCount="indefinite"/></line>
+<rect x="608" y="138" width="64" height="64" rx="16" fill="#080d1a" stroke="#5b8cff" stroke-width="1.5"/>
+<text x="640" y="176" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="15" font-weight="700" fill="#38bdf8">01</text>
+<text x="640" y="234" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13" letter-spacing="1" fill="#8fa1c4">trigger</text>
+<rect x="768" y="138" width="64" height="64" rx="16" fill="#080d1a" stroke="#5b8cff" stroke-width="1.5"/>
+<text x="800" y="176" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="15" font-weight="700" fill="#38bdf8">02</text>
+<text x="800" y="234" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13" letter-spacing="1" fill="#8fa1c4">agent</text>
+<rect x="928" y="138" width="64" height="64" rx="16" fill="#080d1a" stroke="#5b8cff" stroke-width="1.5"/>
+<text x="960" y="176" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="15" font-weight="700" fill="#38bdf8">03</text>
+<text x="960" y="234" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13" letter-spacing="1" fill="#8fa1c4">tools</text>
+<rect x="1078" y="138" width="64" height="64" rx="16" fill="url(#ac)" stroke="#38bdf8" stroke-width="1.5"/>
+<text x="1110" y="176" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="15" font-weight="700" fill="#080d1a">04</text>
+<text x="1110" y="234" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13" letter-spacing="1" fill="#8fa1c4">result</text>
+<circle r="5" cy="170" fill="#e8eefb"><animate attributeName="cx" values="640;1110" dur="4s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.1;0.9;1" dur="4s" repeatCount="indefinite"/></circle>
+</svg>

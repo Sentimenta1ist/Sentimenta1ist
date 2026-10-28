@@ -1,4 +1,4 @@
-"""Render the last year of contributions as a dot field in the style of the profile banner.
+"""Render the last year of contributions as a heatmap in the profile palette.
 
 Usage: python dots.py <out_dir> [demo]
 Reads GITHUB_TOKEN and GH_USER from env; "demo" uses synthetic data.
@@ -14,10 +14,9 @@ import urllib.request
 QUERY = """query($login:String!){user(login:$login){contributionsCollection{contributionCalendar{
 totalContributions weeks{contributionDays{date contributionCount}}}}}}"""
 
-THEMES = {
-    "dark": dict(bg="#0b0e14", empty="#1c2230", lo="#2c4fb0", hi="#7fa2ff", text="#8b93a7", strong="#e6e9f0"),
-    "light": dict(bg="#ffffff", empty="#e6e9ef", lo="#a9bff7", hi="#2f5fe0", text="#6a7283", strong="#11151c"),
-}
+PALETTE = ["#111a31", "#1d3a7a", "#2f62d6", "#4f8cff", "#a5c8ff"]
+BG, LINE, TEXT, MUTED = "#080d1a", "#1f2f55", "#e8eefb", "#8fa1c4"
+MONTHS = "Jan Feb Mar Apr May Jun Jul Aug Sep Oct Nov Dec".split()
 
 
 def fetch(user, token):
@@ -54,35 +53,43 @@ def longest_streak(days):
     return best
 
 
-def mix(a, b, t):
-    a, b = int(a[1:], 16), int(b[1:], 16)
-    ch = [round(((a >> s) & 255) * (1 - t) + ((b >> s) & 255) * t) for s in (16, 8, 0)]
-    return "#%02x%02x%02x" % tuple(ch)
+def level(n, top):
+    if n == 0:
+        return 0
+    return min(4, 1 + int(3 * math.log1p(n) / math.log1p(top) + 0.5) - (1 if n < top / 4 else 0)) if top > 1 else 1
 
 
-def render(weeks, theme):
-    c = THEMES[theme]
+def render(weeks):
     days = [d for w in weeks for d in w]
     total = sum(n for _, n in days)
     top = max((n for _, n in days), default=1) or 1
-    step, pad_x, pad_top = 16, 32, 64
-    width = pad_x * 2 + step * len(weeks)
-    height = pad_top + step * 7 + 28
+    cell, gap, left, head = 13, 3, 58, 100
+    step = cell + gap
+    width = left + step * len(weeks) + 28
+    height = head + step * 7 + 54
+    mono = "ui-monospace,SFMono-Regular,Menlo,Consolas,monospace"
     out = [f'<svg xmlns="http://www.w3.org/2000/svg" width="{width}" height="{height}" viewBox="0 0 {width} {height}">',
-           f'<rect width="100%" height="100%" rx="10" fill="{c["bg"]}"/>',
-           '<style>text{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}</style>',
-           f'<text x="{pad_x}" y="30" font-size="11" letter-spacing="2" fill="{c["text"]}">LAST 12 MONTHS</text>',
-           f'<text x="{pad_x}" y="50" font-size="15" fill="{c["strong"]}">{total} contributions'
-           f'<tspan fill="{c["text"]}">  ·  longest streak {longest_streak(days)} days</tspan></text>']
+           f'<rect x="0.5" y="0.5" width="{width-1}" height="{height-1}" rx="16" fill="{BG}" stroke="{LINE}"/>',
+           f'<text x="28" y="38" font-family="{mono}" font-size="12" letter-spacing="2.5" fill="#38bdf8">CONTRIBUTIONS · LAST 12 MONTHS</text>',
+           f'<text x="28" y="62" font-family="{mono}" font-size="17" fill="{TEXT}">{total} contributions'
+           f'<tspan fill="{MUTED}" font-size="14">   longest streak {longest_streak(days)} days</tspan></text>']
+    for y, label in ((1, "Mon"), (3, "Wed"), (5, "Fri")):
+        out.append(f'<text x="28" y="{head + y*step + 11}" font-family="{mono}" font-size="10" fill="{MUTED}">{label}</text>')
+    last_month, last_x = None, -9
     for x, week in enumerate(weeks):
+        month = int(week[0][0][5:7])
+        if month != last_month and x - last_x >= 3 and x < len(weeks) - 2:
+            out.append(f'<text x="{left + x*step}" y="{head - 8}" font-family="{mono}" font-size="10" fill="{MUTED}">{MONTHS[month-1]}</text>')
+            last_x = x
+        last_month = month
         for y, (date, n) in enumerate(week):
-            cx, cy = pad_x + x * step + step / 2, pad_top + y * step + step / 2
-            if n == 0:
-                out.append(f'<circle cx="{cx}" cy="{cy}" r="1.6" fill="{c["empty"]}"/>')
-                continue
-            t = math.log1p(n) / math.log1p(top)
-            out.append(f'<circle cx="{cx}" cy="{cy}" r="{2.6 + 3.6 * t:.1f}" fill="{mix(c["lo"], c["hi"], t)}">'
-                       f'<title>{date}: {n}</title></circle>')
+            out.append(f'<rect x="{left + x*step}" y="{head + y*step}" width="{cell}" height="{cell}" rx="3" fill="{PALETTE[level(n, top)]}">'
+                       f'<title>{date}: {n}</title></rect>')
+    ly = height - 22
+    out.append(f'<text x="{width-28-5*step-62}" y="{ly+10}" font-family="{mono}" font-size="10" fill="{MUTED}">Less</text>')
+    for i, c in enumerate(PALETTE):
+        out.append(f'<rect x="{width-28-5*step-26+i*step}" y="{ly}" width="{cell}" height="{cell}" rx="3" fill="{c}"/>')
+    out.append(f'<text x="{width-28-16+2}" y="{ly+10}" font-family="{mono}" font-size="10" fill="{MUTED}">More</text>')
     out.append("</svg>")
     return "\n".join(out)
 
@@ -90,9 +97,8 @@ def render(weeks, theme):
 def main(out_dir, mode=""):
     weeks = demo() if mode == "demo" else fetch(os.environ["GH_USER"], os.environ["GITHUB_TOKEN"])
     os.makedirs(out_dir, exist_ok=True)
-    for theme in THEMES:
-        with open(os.path.join(out_dir, f"dots-{theme}.svg"), "w") as f:
-            f.write(render(weeks, theme))
+    with open(os.path.join(out_dir, "heatmap.svg"), "w") as f:
+        f.write(render(weeks))
 
 
 if __name__ == "__main__":

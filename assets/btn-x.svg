@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="197" height="38" viewBox="0 0 197 38"><defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0e1a35"/><stop offset="1" stop-color="#080d1a"/></linearGradient>
+<linearGradient id="ac" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#5b8cff"/><stop offset="1" stop-color="#38bdf8"/></linearGradient>
+<radialGradient id="glow" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#5b8cff" stop-opacity="0.35"/><stop offset="1" stop-color="#5b8cff" stop-opacity="0"/></radialGradient>
+</defs><rect x="0.5" y="0.5" width="196" height="37" rx="10" fill="url(#bg)" stroke="#5b8cff"/><text x="98" y="24" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="14" fill="#e8eefb">X @sentimentGod ↗</text></svg>

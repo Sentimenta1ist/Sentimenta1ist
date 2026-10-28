@@ -28,6 +28,6 @@ jobs:
         run: |
           git config user.name "Alexander Ivanenko"
           git config user.email "sentimental1243@gmail.com"
-          git add assets/dots-*.svg
+          git add assets/heatmap.svg
           git diff --cached --quiet || git commit -m "Update contribution dots"
           git push
