@@ -1,4 +1,4 @@
-<img src="assets/banner.svg" alt="Alexander Ivanenko, software engineer at IBM: AI agents and automation" width="100%" />
+<img src="assets/banner-v2.svg" alt="Alexander Ivanenko, software engineer at IBM: AI agents and automation" width="100%" />
 
 Software engineer at IBM, working on AI agent orchestration. Backend by trade: Java, Spring, Kafka, and lately LLM agents, RAG and tracing. On the side I automate my own life and build small tools, and now bring the same automation to people and businesses.
 

@@ -109,7 +109,7 @@ def button(label):
 
 def main(out):
     os.makedirs(out, exist_ok=True)
-    files = {"banner.svg": banner(), "stack.svg": chips(
+    files = {"banner-v2.svg": banner(), "stack.svg": chips(
         ["Java", "Spring Boot", "Kafka", "Python", "FastAPI", "TypeScript", "React", "PostgreSQL", "Docker", "LLM agents", "RAG", "OpenTelemetry"]),
         "btn-linkedin.svg": button("LinkedIn ↗"), "btn-x.svg": button("X @sentimentGod ↗")}
     for n, d, l, c in PROJECTS:
