@@ -15,7 +15,7 @@ Older code topics: an x86 assembler, a SIGNAL compiler, OS simulations in Java, 
 ### Second brain, last 7 days
 
 <!--brain-stats:start-->
-<table><tr><td align="center"><b>100</b><br><sub>commits</sub></td><td align="center"><b>7</b><br><sub>active days</sub></td><td align="center"><b>47</b><br><sub>notes updated</sub></td><td align="center"><b>94</b><br><sub>logged events</sub></td><td align="center"><b>20</b><br><sub>posts published</sub></td></tr></table>
+<table><tr><td align="center"><b>99</b><br><sub>commits</sub></td><td align="center"><b>7</b><br><sub>active days</sub></td><td align="center"><b>47</b><br><sub>notes updated</sub></td><td align="center"><b>94</b><br><sub>logged events</sub></td><td align="center"><b>20</b><br><sub>posts published</sub></td></tr></table>
 
 <sub>Counted daily by a GitHub Action from a private repo. Numbers only. Updated 2026-10-28.</sub>
 <!--brain-stats:end-->
