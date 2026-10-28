@@ -7,18 +7,12 @@ Software engineer at IBM, working on AI agent orchestration. Backend by trade: J
 <table>
 <tr><td width="50%"><a href="https://github.com/Sentimenta1ist/crumbclear"><img src="assets/card-crumbclear.svg" alt="crumbclear" width="100%"/></a></td><td width="50%"><a href="https://github.com/Sentimenta1ist/vocab"><img src="assets/card-vocab.svg" alt="vocab" width="100%"/></a></td></tr>
 <tr><td width="50%"><a href="https://github.com/Sentimenta1ist/transcribator"><img src="assets/card-transcribator.svg" alt="transcribator" width="100%"/></a></td><td width="50%"><a href="https://github.com/Sentimenta1ist/memoir"><img src="assets/card-memoir.svg" alt="memoir" width="100%"/></a></td></tr>
-<tr><td width="50%"><a href="https://github.com/Sentimenta1ist/x-viral-radar"><img src="assets/card-x-viral-radar.svg" alt="x-viral-radar" width="100%"/></a></td><td width="50%"><a href="https://github.com/Sentimenta1ist/diet-dash"><img src="assets/card-diet-dash.svg" alt="diet-dash" width="100%"/></a></td></tr>
+<tr><td width="50%"><a href="https://github.com/Sentimenta1ist/x-viral-radar"><img src="assets/card-x-viral-radar.svg" alt="x-viral-radar" width="100%"/></a></td><td width="50%"><a href="https://github.com/Sentimenta1ist/x-scout"><img src="assets/card-x-scout.svg" alt="x-scout" width="100%"/></a></td></tr>
 </table>
 
 Older code topics: an x86 assembler, a SIGNAL compiler, OS simulations in Java, Lisp, numerical methods.
 
-### Second brain, last 7 days
-
-<!--brain-stats:start-->
-<table><tr><td align="center"><b>99</b><br><sub>commits</sub></td><td align="center"><b>7</b><br><sub>active days</sub></td><td align="center"><b>47</b><br><sub>notes updated</sub></td><td align="center"><b>94</b><br><sub>logged events</sub></td><td align="center"><b>20</b><br><sub>posts published</sub></td></tr></table>
-
-<sub>Counted daily by a GitHub Action from a private repo. Numbers only. Updated 2026-10-28.</sub>
-<!--brain-stats:end-->
+<img src="assets/stats.svg" alt="Second brain, last 7 days: commits, active days, notes updated, logged events, posts published" width="100%" />
 
 ### Stack
 

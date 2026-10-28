@@ -9,10 +9,9 @@
 <rect width="1200" height="340" rx="16" fill="url(#grid)"/>
 <circle cx="930" cy="170" r="260" fill="url(#glow)"/>
 <rect x="0.5" y="0.5" width="1199" height="339" rx="16" fill="none" stroke="#1f2f55"/>
-<text x="64" y="104" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="14" letter-spacing="3" fill="#38bdf8">SOFTWARE ENGINEER · IBM · DUBLIN</text>
-<text x="62" y="176" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="62" font-weight="700" fill="#e8eefb" letter-spacing="-1.5">Alexander</text>
-<text x="62" y="244" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="62" font-weight="700" fill="url(#ac)" letter-spacing="-1.5">Ivanenko</text>
-<text x="64" y="288" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="19" fill="#8fa1c4">Hours of manual work in, systems that run on their own out.</text>
+<text x="64" y="128" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="14" letter-spacing="3" fill="#38bdf8">SOFTWARE ENGINEER · IBM · DUBLIN</text>
+<text x="62" y="186" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="44" font-weight="700" letter-spacing="-1"><tspan fill="#e8eefb">Alexander </tspan><tspan fill="url(#ac)">Ivanenko</tspan></text>
+<text x="64" y="224" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="18" fill="#8fa1c4">Hours of manual work in, systems that run on their own out.</text>
 <line x1="640" y1="170" x2="1110" y2="170" stroke="#1f2f55" stroke-width="2"/>
 <line x1="640" y1="170" x2="1110" y2="170" stroke="url(#ac)" stroke-width="2" stroke-dasharray="6 10"><animate attributeName="stroke-dashoffset" from="32" to="0" dur="1.6s" repeatCount="indefinite"/></line>
 <rect x="608" y="138" width="64" height="64" rx="16" fill="#080d1a" stroke="#5b8cff" stroke-width="1.5"/>

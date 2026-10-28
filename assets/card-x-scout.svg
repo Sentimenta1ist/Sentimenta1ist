@@ -6,10 +6,10 @@
 </defs>
 <rect x="0.5" y="0.5" width="439" height="131" rx="14" fill="url(#bg)" stroke="#1f2f55"/>
 <rect x="24" y="0" width="56" height="2" fill="url(#ac)"/>
-<text x="24" y="38" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="17" font-weight="700" fill="#e8eefb">diet-dash</text>
+<text x="24" y="38" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="17" font-weight="700" fill="#e8eefb">x-scout</text>
 <text x="416" y="38" text-anchor="end" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="16" fill="#5b8cff">↗</text>
-<text x="24" y="62" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="13.5" fill="#8fa1c4">Web app for nutritionists: profiles, meal plans,</text>
-<text x="24" y="81" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="13.5" fill="#8fa1c4">9.9k products, docx and xlsx export.</text>
-<circle cx="29" cy="110" r="5" fill="#f1e05a"/>
-<text x="42" y="114.5" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" fill="#8fa1c4">JavaScript</text>
+<text x="24" y="62" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="13.5" fill="#8fa1c4">Daily X briefing for up to 5 topics, ranked by</text>
+<text x="24" y="81" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="13.5" fill="#8fa1c4">Claude. Runs locally in a real browser.</text>
+<circle cx="29" cy="110" r="5" fill="#4b8bbe"/>
+<text x="42" y="114.5" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" fill="#8fa1c4">Python</text>
 </svg>

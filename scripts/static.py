@@ -29,10 +29,9 @@ def banner():
          f'<rect width="{W}" height="{H}" rx="16" fill="url(#grid)"/>',
          f'<circle cx="930" cy="{y}" r="260" fill="url(#glow)"/>',
          f'<rect x="0.5" y="0.5" width="{W-1}" height="{H-1}" rx="16" fill="none" stroke="{LINE}"/>',
-         f'<text x="64" y="104" font-family="{MONO}" font-size="14" letter-spacing="3" fill="{CYAN}">SOFTWARE ENGINEER · IBM · DUBLIN</text>',
-         f'<text x="62" y="176" font-family="{SANS}" font-size="62" font-weight="700" fill="{TEXT}" letter-spacing="-1.5">Alexander</text>',
-         f'<text x="62" y="244" font-family="{SANS}" font-size="62" font-weight="700" fill="url(#ac)" letter-spacing="-1.5">Ivanenko</text>',
-         f'<text x="64" y="288" font-family="{SANS}" font-size="19" fill="{MUTED}">Hours of manual work in, systems that run on their own out.</text>']
+         f'<text x="64" y="128" font-family="{MONO}" font-size="14" letter-spacing="3" fill="{CYAN}">SOFTWARE ENGINEER · IBM · DUBLIN</text>',
+         f'<text x="62" y="186" font-family="{SANS}" font-size="44" font-weight="700" letter-spacing="-1"><tspan fill="{TEXT}">Alexander </tspan><tspan fill="url(#ac)">Ivanenko</tspan></text>',
+         f'<text x="64" y="224" font-family="{SANS}" font-size="18" fill="{MUTED}">Hours of manual work in, systems that run on their own out.</text>']
     # pipeline
     xs = [n[1] for n in nodes]
     o.append(f'<line x1="{xs[0]}" y1="{y}" x2="{xs[-1]}" y2="{y}" stroke="{LINE}" stroke-width="2"/>')
@@ -56,7 +55,7 @@ PROJECTS = [
     ("transcribator", "YouTube link in, transcript and a ready LLM prompt out. Decide in 30 seconds.", "Python", "#4b8bbe"),
     ("memoir", "Evening journal as a PWA: three short blocks a day with photos. FastAPI + React.", "TypeScript", "#3178c6"),
     ("x-viral-radar", "Scores posts in your X feed by how likely they are to take off, while you scroll.", "JavaScript", "#f1e05a"),
-    ("diet-dash", "Web app for nutritionists: profiles, meal plans, 9.9k products, docx and xlsx export.", "JavaScript", "#f1e05a"),
+    ("x-scout", "Daily X briefing for up to 5 topics, ranked by Claude. Runs locally in a real browser.", "Python", "#4b8bbe"),
 ]
 
 

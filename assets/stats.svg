@@ -2,7 +2,7 @@
 <defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0e1a35"/><stop offset="1" stop-color="#080d1a"/></linearGradient><linearGradient id="ac" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#5b8cff"/><stop offset="1" stop-color="#38bdf8"/></linearGradient></defs>
 <rect x="0.5" y="0.5" width="879" height="143" rx="16" fill="url(#bg)" stroke="#1f2f55"/>
 <rect x="28" y="0" width="56" height="2" fill="url(#ac)"/>
-<text x="107" y="68" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="34" font-weight="700" fill="#e8eefb">101</text>
+<text x="107" y="68" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="34" font-weight="700" fill="#e8eefb">102</text>
 <text x="107" y="90" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" fill="#8fa1c4">commits</text>
 <line x1="190" y1="34" x2="190" y2="92" stroke="#1f2f55"/>
 <text x="274" y="68" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="34" font-weight="700" fill="#e8eefb">7</text>
