@@ -2,7 +2,7 @@
 <rect width="100%" height="100%" rx="10" fill="#0b0e14"/>
 <style>text{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}</style>
 <text x="32" y="30" font-size="11" letter-spacing="2" fill="#8b93a7">LAST 12 MONTHS</text>
-<text x="32" y="50" font-size="15" fill="#e6e9f0">208 contributions<tspan fill="#8b93a7">  ·  longest streak 5 days</tspan></text>
+<text x="32" y="50" font-size="15" fill="#e6e9f0">227 contributions<tspan fill="#8b93a7">  ·  longest streak 5 days</tspan></text>
 <circle cx="40.0" cy="72.0" r="1.6" fill="#1c2230"/>
 <circle cx="40.0" cy="88.0" r="1.6" fill="#1c2230"/>
 <circle cx="40.0" cy="104.0" r="1.6" fill="#1c2230"/>
@@ -138,7 +138,7 @@
 <circle cx="328.0" cy="168.0" r="1.6" fill="#1c2230"/>
 <circle cx="344.0" cy="72.0" r="1.6" fill="#1c2230"/>
 <circle cx="344.0" cy="88.0" r="1.6" fill="#1c2230"/>
-<circle cx="344.0" cy="104.0" r="3.2" fill="#3b5ebe"><title>2026-03-10: 1</title></circle>
+<circle cx="344.0" cy="104.0" r="3.2" fill="#3a5dbd"><title>2026-03-10: 1</title></circle>
 <circle cx="344.0" cy="120.0" r="1.6" fill="#1c2230"/>
 <circle cx="344.0" cy="136.0" r="1.6" fill="#1c2230"/>
 <circle cx="344.0" cy="152.0" r="1.6" fill="#1c2230"/>
@@ -195,16 +195,16 @@
 <circle cx="472.0" cy="72.0" r="1.6" fill="#1c2230"/>
 <circle cx="472.0" cy="88.0" r="1.6" fill="#1c2230"/>
 <circle cx="472.0" cy="104.0" r="1.6" fill="#1c2230"/>
-<circle cx="472.0" cy="120.0" r="4.4" fill="#5578d7"><title>2026-05-06: 6</title></circle>
+<circle cx="472.0" cy="120.0" r="4.3" fill="#5477d6"><title>2026-05-06: 6</title></circle>
 <circle cx="472.0" cy="136.0" r="1.6" fill="#1c2230"/>
-<circle cx="472.0" cy="152.0" r="3.9" fill="#496ccc"><title>2026-05-08: 3</title></circle>
+<circle cx="472.0" cy="152.0" r="3.8" fill="#486bcb"><title>2026-05-08: 3</title></circle>
 <circle cx="472.0" cy="168.0" r="1.6" fill="#1c2230"/>
 <circle cx="488.0" cy="72.0" r="1.6" fill="#1c2230"/>
-<circle cx="488.0" cy="88.0" r="4.2" fill="#5275d4"><title>2026-05-11: 5</title></circle>
-<circle cx="488.0" cy="104.0" r="5.4" fill="#6d90ee"><title>2026-05-12: 21</title></circle>
+<circle cx="488.0" cy="88.0" r="4.2" fill="#5073d3"><title>2026-05-11: 5</title></circle>
+<circle cx="488.0" cy="104.0" r="5.3" fill="#6b8eec"><title>2026-05-12: 21</title></circle>
 <circle cx="488.0" cy="120.0" r="1.6" fill="#1c2230"/>
 <circle cx="488.0" cy="136.0" r="1.6" fill="#1c2230"/>
-<circle cx="488.0" cy="152.0" r="3.2" fill="#3b5ebe"><title>2026-05-15: 1</title></circle>
+<circle cx="488.0" cy="152.0" r="3.2" fill="#3a5dbd"><title>2026-05-15: 1</title></circle>
 <circle cx="488.0" cy="168.0" r="1.6" fill="#1c2230"/>
 <circle cx="504.0" cy="72.0" r="1.6" fill="#1c2230"/>
 <circle cx="504.0" cy="88.0" r="1.6" fill="#1c2230"/>
@@ -232,7 +232,7 @@
 <circle cx="552.0" cy="104.0" r="1.6" fill="#1c2230"/>
 <circle cx="552.0" cy="120.0" r="1.6" fill="#1c2230"/>
 <circle cx="552.0" cy="136.0" r="1.6" fill="#1c2230"/>
-<circle cx="552.0" cy="152.0" r="5.3" fill="#6b8eec"><title>2026-06-12: 19</title></circle>
+<circle cx="552.0" cy="152.0" r="5.2" fill="#698cea"><title>2026-06-12: 19</title></circle>
 <circle cx="552.0" cy="168.0" r="1.6" fill="#1c2230"/>
 <circle cx="568.0" cy="72.0" r="1.6" fill="#1c2230"/>
 <circle cx="568.0" cy="88.0" r="1.6" fill="#1c2230"/>
@@ -307,7 +307,7 @@
 <circle cx="728.0" cy="72.0" r="1.6" fill="#1c2230"/>
 <circle cx="728.0" cy="88.0" r="1.6" fill="#1c2230"/>
 <circle cx="728.0" cy="104.0" r="1.6" fill="#1c2230"/>
-<circle cx="728.0" cy="120.0" r="3.6" fill="#4366c6"><title>2026-08-26: 2</title></circle>
+<circle cx="728.0" cy="120.0" r="3.6" fill="#4265c5"><title>2026-08-26: 2</title></circle>
 <circle cx="728.0" cy="136.0" r="1.6" fill="#1c2230"/>
 <circle cx="728.0" cy="152.0" r="1.6" fill="#1c2230"/>
 <circle cx="728.0" cy="168.0" r="1.6" fill="#1c2230"/>
@@ -319,15 +319,15 @@
 <circle cx="744.0" cy="152.0" r="1.6" fill="#1c2230"/>
 <circle cx="744.0" cy="168.0" r="1.6" fill="#1c2230"/>
 <circle cx="760.0" cy="72.0" r="1.6" fill="#1c2230"/>
-<circle cx="760.0" cy="88.0" r="3.2" fill="#3b5ebe"><title>2026-09-07: 1</title></circle>
+<circle cx="760.0" cy="88.0" r="3.2" fill="#3a5dbd"><title>2026-09-07: 1</title></circle>
 <circle cx="760.0" cy="104.0" r="1.6" fill="#1c2230"/>
 <circle cx="760.0" cy="120.0" r="1.6" fill="#1c2230"/>
 <circle cx="760.0" cy="136.0" r="1.6" fill="#1c2230"/>
-<circle cx="760.0" cy="152.0" r="3.2" fill="#3b5ebe"><title>2026-09-11: 1</title></circle>
+<circle cx="760.0" cy="152.0" r="3.2" fill="#3a5dbd"><title>2026-09-11: 1</title></circle>
 <circle cx="760.0" cy="168.0" r="1.6" fill="#1c2230"/>
 <circle cx="776.0" cy="72.0" r="1.6" fill="#1c2230"/>
 <circle cx="776.0" cy="88.0" r="1.6" fill="#1c2230"/>
-<circle cx="776.0" cy="104.0" r="3.2" fill="#3b5ebe"><title>2026-09-15: 1</title></circle>
+<circle cx="776.0" cy="104.0" r="3.2" fill="#3a5dbd"><title>2026-09-15: 1</title></circle>
 <circle cx="776.0" cy="120.0" r="1.6" fill="#1c2230"/>
 <circle cx="776.0" cy="136.0" r="1.6" fill="#1c2230"/>
 <circle cx="776.0" cy="152.0" r="1.6" fill="#1c2230"/>
@@ -336,13 +336,13 @@
 <circle cx="792.0" cy="88.0" r="1.6" fill="#1c2230"/>
 <circle cx="792.0" cy="104.0" r="1.6" fill="#1c2230"/>
 <circle cx="792.0" cy="120.0" r="1.6" fill="#1c2230"/>
-<circle cx="792.0" cy="136.0" r="3.2" fill="#3b5ebe"><title>2026-09-24: 1</title></circle>
-<circle cx="792.0" cy="152.0" r="4.1" fill="#4e71d0"><title>2026-09-25: 4</title></circle>
-<circle cx="792.0" cy="168.0" r="4.9" fill="#6285e4"><title>2026-09-26: 12</title></circle>
+<circle cx="792.0" cy="136.0" r="3.2" fill="#3a5dbd"><title>2026-09-24: 1</title></circle>
+<circle cx="792.0" cy="152.0" r="4.0" fill="#4d70cf"><title>2026-09-25: 4</title></circle>
+<circle cx="792.0" cy="168.0" r="4.9" fill="#6083e2"><title>2026-09-26: 12</title></circle>
 <circle cx="808.0" cy="72.0" r="1.6" fill="#1c2230"/>
-<circle cx="808.0" cy="88.0" r="3.6" fill="#4366c6"><title>2026-09-28: 2</title></circle>
+<circle cx="808.0" cy="88.0" r="3.6" fill="#4265c5"><title>2026-09-28: 2</title></circle>
 <circle cx="808.0" cy="104.0" r="1.6" fill="#1c2230"/>
-<circle cx="808.0" cy="120.0" r="3.9" fill="#496ccc"><title>2026-09-30: 3</title></circle>
+<circle cx="808.0" cy="120.0" r="3.8" fill="#486bcb"><title>2026-09-30: 3</title></circle>
 <circle cx="808.0" cy="136.0" r="1.6" fill="#1c2230"/>
 <circle cx="808.0" cy="152.0" r="1.6" fill="#1c2230"/>
 <circle cx="808.0" cy="168.0" r="1.6" fill="#1c2230"/>
@@ -350,24 +350,25 @@
 <circle cx="824.0" cy="88.0" r="1.6" fill="#1c2230"/>
 <circle cx="824.0" cy="104.0" r="1.6" fill="#1c2230"/>
 <circle cx="824.0" cy="120.0" r="1.6" fill="#1c2230"/>
-<circle cx="824.0" cy="136.0" r="3.9" fill="#496ccc"><title>2026-10-08: 3</title></circle>
-<circle cx="824.0" cy="152.0" r="4.9" fill="#6083e2"><title>2026-10-09: 11</title></circle>
-<circle cx="824.0" cy="168.0" r="3.6" fill="#4366c6"><title>2026-10-10: 2</title></circle>
-<circle cx="840.0" cy="72.0" r="5.7" fill="#7295f3"><title>2026-10-11: 27</title></circle>
-<circle cx="840.0" cy="88.0" r="3.2" fill="#3b5ebe"><title>2026-10-12: 1</title></circle>
+<circle cx="824.0" cy="136.0" r="3.8" fill="#486bcb"><title>2026-10-08: 3</title></circle>
+<circle cx="824.0" cy="152.0" r="4.8" fill="#5f82e0"><title>2026-10-09: 11</title></circle>
+<circle cx="824.0" cy="168.0" r="3.6" fill="#4265c5"><title>2026-10-10: 2</title></circle>
+<circle cx="840.0" cy="72.0" r="5.5" fill="#7093f1"><title>2026-10-11: 27</title></circle>
+<circle cx="840.0" cy="88.0" r="3.2" fill="#3a5dbd"><title>2026-10-12: 1</title></circle>
 <circle cx="840.0" cy="104.0" r="1.6" fill="#1c2230"/>
 <circle cx="840.0" cy="120.0" r="1.6" fill="#1c2230"/>
-<circle cx="840.0" cy="136.0" r="3.6" fill="#4366c6"><title>2026-10-15: 2</title></circle>
+<circle cx="840.0" cy="136.0" r="3.6" fill="#4265c5"><title>2026-10-15: 2</title></circle>
 <circle cx="840.0" cy="152.0" r="1.6" fill="#1c2230"/>
 <circle cx="840.0" cy="168.0" r="1.6" fill="#1c2230"/>
 <circle cx="856.0" cy="72.0" r="1.6" fill="#1c2230"/>
 <circle cx="856.0" cy="88.0" r="1.6" fill="#1c2230"/>
 <circle cx="856.0" cy="104.0" r="1.6" fill="#1c2230"/>
-<circle cx="856.0" cy="120.0" r="3.9" fill="#496ccc"><title>2026-10-21: 3</title></circle>
-<circle cx="856.0" cy="136.0" r="5.5" fill="#6e91ef"><title>2026-10-22: 22</title></circle>
-<circle cx="856.0" cy="152.0" r="4.1" fill="#4e71d0"><title>2026-10-23: 4</title></circle>
+<circle cx="856.0" cy="120.0" r="3.8" fill="#486bcb"><title>2026-10-21: 3</title></circle>
+<circle cx="856.0" cy="136.0" r="5.4" fill="#6c8fed"><title>2026-10-22: 22</title></circle>
+<circle cx="856.0" cy="152.0" r="4.0" fill="#4d70cf"><title>2026-10-23: 4</title></circle>
 <circle cx="856.0" cy="168.0" r="1.6" fill="#1c2230"/>
 <circle cx="872.0" cy="72.0" r="1.6" fill="#1c2230"/>
 <circle cx="872.0" cy="88.0" r="1.6" fill="#1c2230"/>
-<circle cx="872.0" cy="104.0" r="6.2" fill="#7fa2ff"><title>2026-10-27: 50</title></circle>
+<circle cx="872.0" cy="104.0" r="6.2" fill="#7fa2ff"><title>2026-10-27: 58</title></circle>
+<circle cx="872.0" cy="120.0" r="4.8" fill="#5f82e0"><title>2026-10-28: 11</title></circle>
 </svg>
