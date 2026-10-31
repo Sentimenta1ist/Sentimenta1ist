@@ -2,19 +2,19 @@
 <defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0e1a35"/><stop offset="1" stop-color="#080d1a"/></linearGradient><linearGradient id="ac" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#5b8cff"/><stop offset="1" stop-color="#38bdf8"/></linearGradient></defs>
 <rect x="0.5" y="0.5" width="879" height="143" rx="16" fill="url(#bg)" stroke="#1f2f55"/>
 <rect x="28" y="0" width="56" height="2" fill="url(#ac)"/>
-<text x="107" y="68" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="34" font-weight="700" fill="#e8eefb">108</text>
+<text x="107" y="68" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="34" font-weight="700" fill="#e8eefb">118</text>
 <text x="107" y="90" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" fill="#8fa1c4">commits</text>
 <line x1="190" y1="34" x2="190" y2="92" stroke="#1f2f55"/>
-<text x="274" y="68" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="34" font-weight="700" fill="#e8eefb">7</text>
+<text x="274" y="68" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="34" font-weight="700" fill="#e8eefb">6</text>
 <text x="274" y="90" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" fill="#8fa1c4">active days</text>
 <line x1="357" y1="34" x2="357" y2="92" stroke="#1f2f55"/>
-<text x="440" y="68" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="34" font-weight="700" fill="#e8eefb">45</text>
+<text x="440" y="68" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="34" font-weight="700" fill="#e8eefb">47</text>
 <text x="440" y="90" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" fill="#8fa1c4">notes updated</text>
 <line x1="523" y1="34" x2="523" y2="92" stroke="#1f2f55"/>
-<text x="606" y="68" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="34" font-weight="700" fill="#e8eefb">102</text>
+<text x="606" y="68" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="34" font-weight="700" fill="#e8eefb">120</text>
 <text x="606" y="90" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" fill="#8fa1c4">logged events</text>
 <line x1="690" y1="34" x2="690" y2="92" stroke="#1f2f55"/>
 <text x="773" y="68" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="34" font-weight="700" fill="#e8eefb">17</text>
 <text x="773" y="90" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" fill="#8fa1c4">posts published</text>
-<text x="28" y="130" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="10" fill="#5a6d94">LAST 7 DAYS IN MY SECOND BRAIN · COUNTED DAILY FROM A PRIVATE REPO · NUMBERS ONLY · 2026-10-30</text>
+<text x="28" y="130" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="10" fill="#5a6d94">LAST 7 DAYS IN MY SECOND BRAIN · COUNTED DAILY FROM A PRIVATE REPO · NUMBERS ONLY · 2026-10-31</text>
 </svg>
