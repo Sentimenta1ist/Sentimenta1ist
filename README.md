@@ -1,26 +1,16 @@
-<img src="assets/banner-v2.svg" alt="Alexander Ivanenko, software engineer at IBM: AI agents and automation" width="100%" />
+<img src="assets/neofetch.svg" alt="neofetch-style card: ASCII portrait, stack, contacts and live GitHub stats" width="100%" />
 
-Software engineer at IBM, working on AI agent orchestration. Backend by trade: Java, Spring, Kafka, and lately LLM agents, RAG and tracing. On the side I automate my own life and build small tools, and now bring the same automation to people and businesses.
+Software engineer at IBM, working on AI agent orchestration. Backend by trade: Java, Spring, Kafka, and lately LLM agents, RAG and tracing. On the side I automate my own life and build small tools.
 
-### Selected work
+### Projects
 
-<table>
-<tr><td width="50%"><a href="https://github.com/Sentimenta1ist/crumbclear"><img src="assets/card-crumbclear.svg" alt="crumbclear" width="100%"/></a></td><td width="50%"><a href="https://github.com/Sentimenta1ist/vocab"><img src="assets/card-vocab.svg" alt="vocab" width="100%"/></a></td></tr>
-<tr><td width="50%"><a href="https://github.com/Sentimenta1ist/transcribator"><img src="assets/card-transcribator.svg" alt="transcribator" width="100%"/></a></td><td width="50%"><a href="https://github.com/Sentimenta1ist/memoir"><img src="assets/card-memoir.svg" alt="memoir" width="100%"/></a></td></tr>
-<tr><td width="50%"><a href="https://github.com/Sentimenta1ist/x-viral-radar"><img src="assets/card-x-viral-radar.svg" alt="x-viral-radar" width="100%"/></a></td><td width="50%"><a href="https://github.com/Sentimenta1ist/x-scout"><img src="assets/card-x-scout.svg" alt="x-scout" width="100%"/></a></td></tr>
-</table>
+- [**crumbclear**](https://github.com/Sentimenta1ist/crumbclear) — Chrome extension that deletes a site's cookies the moment you close its tab. Manifest V3.
+- [**vocab**](https://github.com/Sentimenta1ist/vocab) — English vocabulary trainer: Gemini writes the cards, SM-2 decides when you see them again.
+- [**transcribator**](https://github.com/Sentimenta1ist/transcribator) — YouTube link in, transcript and a ready LLM prompt out. Decide in 30 seconds.
+- [**memoir**](https://github.com/Sentimenta1ist/memoir) — Evening journal as a PWA: three short blocks a day with photos. FastAPI + React.
+- [**x-viral-radar**](https://github.com/Sentimenta1ist/x-viral-radar) — Scores posts in your X feed by how likely they are to take off, while you scroll.
+- [**x-scout**](https://github.com/Sentimenta1ist/x-scout) — Daily X briefing for up to 5 topics, ranked by Claude. Runs locally in a real browser.
 
-Older code topics: an x86 assembler, a SIGNAL compiler, OS simulations in Java, Lisp, numerical methods.
+<sub>Older code: an x86 assembler, a SIGNAL compiler, OS simulations in Java, Lisp, numerical methods.</sub>
 
-<img src="assets/stats.svg" alt="Second brain, last 7 days: commits, active days, notes updated, logged events, posts published" width="100%" />
-
-### Stack
-
-<img src="assets/stack.svg" alt="Java, Spring Boot, Kafka, Python, FastAPI, TypeScript, React, PostgreSQL, Docker, LLM agents, RAG, OpenTelemetry" width="100%" />
-
-### Elsewhere
-
-<a href="https://www.linkedin.com/in/alexander-ivanenko"><img src="assets/btn-linkedin.svg" alt="LinkedIn" height="38" /></a>
-<a href="https://x.com/sentimentGod"><img src="assets/btn-x.svg" alt="X @sentimentGod" height="38" /></a>
-
-<img src="assets/heatmap.svg" alt="Contributions over the last 12 months" width="100%" />
+[LinkedIn](https://www.linkedin.com/in/alexander-ivanenko) · [X @sentimentGod](https://x.com/sentimentGod) · [sentimenta1ist.github.io](https://sentimenta1ist.github.io)
