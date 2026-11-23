@@ -8,13 +8,13 @@
 <text x="274" y="68" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="34" font-weight="700" fill="#e8eefb">6</text>
 <text x="274" y="90" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" fill="#8fa1c4">active days</text>
 <line x1="357" y1="34" x2="357" y2="92" stroke="#1f2f55"/>
-<text x="440" y="68" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="34" font-weight="700" fill="#e8eefb">32</text>
+<text x="440" y="68" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="34" font-weight="700" fill="#e8eefb">31</text>
 <text x="440" y="90" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" fill="#8fa1c4">notes updated</text>
 <line x1="523" y1="34" x2="523" y2="92" stroke="#1f2f55"/>
-<text x="606" y="68" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="34" font-weight="700" fill="#e8eefb">92</text>
+<text x="606" y="68" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="34" font-weight="700" fill="#e8eefb">85</text>
 <text x="606" y="90" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" fill="#8fa1c4">logged events</text>
 <line x1="690" y1="34" x2="690" y2="92" stroke="#1f2f55"/>
 <text x="773" y="68" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="34" font-weight="700" fill="#e8eefb">0</text>
 <text x="773" y="90" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" fill="#8fa1c4">posts published</text>
-<text x="28" y="130" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="10" fill="#5a6d94">LAST 7 DAYS IN MY SECOND BRAIN · COUNTED DAILY FROM A PRIVATE REPO · NUMBERS ONLY · 2026-11-22</text>
+<text x="28" y="130" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="10" fill="#5a6d94">LAST 7 DAYS IN MY SECOND BRAIN · COUNTED DAILY FROM A PRIVATE REPO · NUMBERS ONLY · 2026-11-23</text>
 </svg>
